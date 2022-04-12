@@ -2,7 +2,7 @@
 
 Objective
 
-Statistical Analysis for PERSON (PLACE, yyyy)
+Statistical Analysis for green_trader (fiverr.com, 2022)
 <!-- Technical Report for  PERSON (PLACE, yyyy) -->
 
 ## Analyses performed
