@@ -1,6 +1,6 @@
 # [title]
 
-Objective
+Study design for the association between peak troponin measurements and in hospital mortality adjusting for scores on EURO scores and APACHE.
 
 Statistical Analysis for green_trader (fiverr.com, 2022)
 <!-- Technical Report for  PERSON (PLACE, yyyy) -->
@@ -9,8 +9,6 @@ Statistical Analysis for green_trader (fiverr.com, 2022)
 
 1. Descriptive analysis
 1. Inferential analysis
-1. Power analysis
-1. Missing data imputation
 1. Statistical models
 
 ## Documents
