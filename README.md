@@ -1,15 +1,14 @@
 # [title]
 
-Objective
+Study design for the association between peak troponin measurements and in hospital mortality adjusting for scores on EURO scores and APACHE.
 
-Statistical Analysis for PERSON (PLACE, yyyy)
+Statistical Analysis for green_trader (fiverr.com, 2022)
+<!-- Technical Report for  PERSON (PLACE, yyyy) -->
 
 ## Analyses performed
 
 1. Descriptive analysis
 1. Inferential analysis
-1. Power analysis
-1. Missing data imputation
 1. Statistical models
 
 ## Documents
@@ -47,12 +46,12 @@ Other analyses performed can also be seen at:
 
 <!-- --- -->
 
-[sapviz-v01]: report/SAP-yyyy-NNN-XX-v01.md
-[sapviz-v02]: report/SAP-yyyy-NNN-XX-v02.md
-[sappdf-v01]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-yyyy-NNN-XX/raw/main/report/SAP-yyyy-NNN-XX-v01.pdf
-[sappdf-v02]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-yyyy-NNN-XX/raw/main/report/SAP-yyyy-NNN-XX-v02.pdf
+[sapviz-v01]: report/SAP-2022-019-v01.md
+[sapviz-v02]: report/SAP-2022-019-v02.md
+[sappdf-v01]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2022-019/raw/main/report/SAP-2022-019-v01.pdf
+[sappdf-v02]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2022-019/raw/main/report/SAP-2022-019-v02.pdf
 
-[reportviz-v01]: report/SAR-yyyy-NNN-XX-v01.md
-[reportviz-v02]: report/SAR-yyyy-NNN-XX-v02.md
-[pdf-v01]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-yyyy-NNN-XX/raw/main/report/SAR-yyyy-NNN-XX-v01.pdf
-[pdf-v02]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-yyyy-NNN-XX/raw/main/report/SAR-yyyy-NNN-XX-v02.pdf
+[reportviz-v01]: report/SAR-2022-019-v01.md
+[reportviz-v02]: report/SAR-2022-019-v02.md
+[pdf-v01]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2022-019/raw/main/report/SAR-2022-019-v01.pdf
+[pdf-v02]: https://docs.google.com/viewer?url=https://github.com/philsf-biostat/SAR-2022-019/raw/main/report/SAR-2022-019-v02.pdf
