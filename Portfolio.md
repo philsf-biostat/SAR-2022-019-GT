@@ -14,6 +14,9 @@ categories:
   - ecological
   - epidemiology
   - bioassay
+  - systematic-review
+  - technical-report
+  - data-product
 tags:
   - prevalence
   - incidence
@@ -23,13 +26,17 @@ tags:
   - efficacy
   - concordance-analysis
   - survey
+  - meta-analysis
+  - decision-trees
   - machine-learning
   - unsupervised-learning
+  - data-instrument
 ---
 
 Objective
 
 Statistical Analysis for PERSON (PLACE, yyyy)
+<!-- Technical Report for  PERSON (PLACE, yyyy) -->
 
 ## Analyses performed
 
@@ -40,6 +47,13 @@ Statistical Analysis for PERSON (PLACE, yyyy)
 1. Statistical models
 
 ## Documents
+
+<!-- The client has requested that this analysis be kept confidential until a future date, determined by the client. -->
+<!-- All documents from this consultation are therefore not published online and only the title and year of the analysis will be included in the consultant's Portfolio. -->
+<!-- After the agreed date is reached, the documents will be released. -->
+
+<!-- The client has requested that this analysis be kept confidential. -->
+<!-- All documents from this consultation are therefore not published online and only the title and year of the analysis will be included in the consultant's Portfolio. -->
 
 ### Analytical Plan (SAP)
 

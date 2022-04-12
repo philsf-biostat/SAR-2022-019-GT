@@ -9,7 +9,7 @@ units <- "cm"
 # tab_inf %>%
 #   as_gt() %>%
 #   as_rtf() %>%
-#   writeLines(con = "report/SAR-2022-019-v01-T2.rtf")
+#   writeLines(con = "report/SAR-2022-019-GT-v01-T2.rtf")
 
 # save plots --------------------------------------------------------------
 
