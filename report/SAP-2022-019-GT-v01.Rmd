@@ -54,15 +54,9 @@ kable(history)
 
 # Abbreviations
 
-- BMI: body mass index
 - CI: confidence interval
-- CV: coefficient of variation
-- d: Cohen's D effect size
 - HR: hazards ratio
-- IQR: interquartile range
-- IRR: incidence rate ratio
-- OR: odds ratio
-- RR: risks ratio
+- ICU: Intensive care unit
 - SD: standard deviation
 
 # Context
@@ -125,22 +119,15 @@ Peak troponin levels, measured as a continuous scale.
 **Specification of outcome measures** (Zarin, 2011):
 
 1. (Domain) Mortality
-2. (Specific measurement) Death counts
-3. (Specific metric) 
-4. (Method of aggregation)
+2. (Specific measurement) In hospital death counts
+3. (Specific metric) Time to event
+4. (Method of aggregation) Hazards ratio
 
 **Primary outcome**
 
 ## Covariates
 
-Patient ID:
-- APACHE score
-- Euro score
-- Type of Surgery
-- Length of surgery
-- Troponin levels post of on day 1,2,3
-- Length of ICU stay
-- In hospital mortality
+Hazard ratios will be adjusted for Euro score, APACHE score, type of surgery, length of surgery and length of ICU stay.
 
 # Statistical methods
 
@@ -152,7 +139,7 @@ The epidemiological profile of the study participants will be described.
 Demographic
 (sex, age and BMI)
 and clinical variables
-<!-- ( [vars] ) -->
+( EURO score, APACHE score, type of surgery, length of surgery and length of ICU stay )
 will be described as
 mean (SD)
 <!-- median (IQR) -->
@@ -161,13 +148,13 @@ The distributions of participants' characteristics will be summarized in tables 
 
 ### Inferential analyses
 
-All comparisons between groups will be performed as univariate analyses.
-Continuous variables will be compared between groups with the
-independent t test with Welch correction.
+<!-- All comparisons between groups will be performed as univariate analyses. -->
+<!-- Continuous variables will be compared between groups with the -->
+<!-- independent t test with Welch correction. -->
 <!-- paired t test. -->
 <!-- Wilcoxon test. -->
-Differences in distribution of categorical variables will be assessed with the
-Fisher exact test.
+<!-- Differences in distribution of categorical variables will be assessed with the -->
+<!-- Fisher exact test. -->
 <!-- chi-square test. -->
 <!-- McNemar test. -->
 
