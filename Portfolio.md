@@ -6,44 +6,22 @@ redirect_from:
   - /portfolio/SAR-2022-019/
   - /SAR-2022-019/
 categories:
-  - case-control
-  - cross-sectional
   - longitudinal-studies
   - cohort
-  - clinical-trial
-  - ecological
-  - epidemiology
-  - bioassay
-  - systematic-review
-  - technical-report
-  - data-product
 tags:
-  - prevalence
   - incidence
-  - diagnostic-models
   - prognostic-models
-  - survival-analysis
-  - efficacy
-  - concordance-analysis
-  - survey
-  - meta-analysis
-  - decision-trees
-  - machine-learning
-  - unsupervised-learning
-  - data-instrument
 ---
 
-Objective
+Study design for the association between peak troponin measurements and in hospital mortality adjusting for scores on EURO scores and APACHE.
 
-Statistical Analysis for PERSON (PLACE, yyyy)
+Statistical Analysis for green_trader (fiverr.com, 2022)
 <!-- Technical Report for  PERSON (PLACE, yyyy) -->
 
 ## Analyses performed
 
 1. Descriptive analysis
 1. Inferential analysis
-1. Power analysis
-1. Missing data imputation
 1. Statistical models
 
 ## Documents
