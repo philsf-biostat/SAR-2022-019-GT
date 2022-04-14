@@ -217,6 +217,8 @@ This analysis will be performed using statistical software `R` version `r getRve
 
 # Observations and limitations
 
+N/A
+
 # References
 
 - **SAR-2022-019-v01** -- Study design for the association between peak troponin levels and post-surgery mortality in an Australian hospital
