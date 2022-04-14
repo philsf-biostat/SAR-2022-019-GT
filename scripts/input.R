@@ -15,6 +15,7 @@ data.raw <- tibble(
   id = gl(2, 100),
   outcome = gl(2, 100),
   troponin = rnorm(200),
+  time = rnorm(200),
   euroscore = rnorm(200),
   apache = rnorm(200),
   surg_type = gl(5, 40),
