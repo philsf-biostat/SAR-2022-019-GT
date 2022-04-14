@@ -100,6 +100,10 @@ This information can be recorded in either text form, or an indicator (death = 1
 
 Surgery length should be recorded in minutes, and ICU length in days.
 
+Surgery type will be recorded as a categorical variable.
+It is recommended that the number of classes (types of surgery) be as small as possible, to avoid loss of precision in the analysis estimates, without the need to increase the sample size.
+Broader categories of surgeries should be preferred, whenever possible.
+
 ## Analytical dataset
 
 The analytical dataset will be created by cleaning the raw data and applying the study's inclusion and exclusion criteria.
