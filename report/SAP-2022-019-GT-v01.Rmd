@@ -123,6 +123,8 @@ All variables in the analytical set will be labeled according to the raw data pr
 
 ## Inclusion and exclusion criteria
 
+Inclusion and exclusion criteria will be defined in the study protocol.
+
 ## Exposures
 
 Peak troponin levels, measured as a continuous scale.
@@ -137,6 +139,8 @@ Peak troponin levels, measured as a continuous scale.
 4. (Method of aggregation) Hazards ratio
 
 **Primary outcome**
+
+In hospital mortality rates after 30 days.
 
 ## Covariates
 
