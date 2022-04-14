@@ -94,12 +94,18 @@ analytical_mockup %>%
   pander(caption = "**Table 1** Raw dataset structure.")
 ```
 
+Each row represents all information collected from each study participant, and each participant included will require an unique study ID.
 The outcome should be recorded as a binary variable: either the study participant reached the endpoint (death) or survived and was discharged.
 This information can be recorded in either text form, or an indicator (death = 1, discharge = 0).
 
+Surgery length should be recorded in minutes, and ICU length in days.
+
 ## Analytical dataset
 
-All variables in the analytical set were labeled according to the raw data provided and values were labeled according to the data dictionary for the preparation of production-quality results tables and figures.
+The analytical dataset will be created by cleaning the raw data and applying the study's inclusion and exclusion criteria.
+Time under observation will be calculated in days from the dates of entry and exit of the cohort.
+
+The total number of observations excluded due to incompleteness (missing data) and due to exclusion criteria will be reported in the analysis.
 
 <!-- After the cleaning process -->
 <!-- `r Nvar_final` -->
