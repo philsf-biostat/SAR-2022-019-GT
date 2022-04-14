@@ -175,9 +175,16 @@ The distributions of participants' characteristics will be summarized in tables 
 <!-- chi-square test. -->
 <!-- McNemar test. -->
 
-<!-- All inferential analyses will be performed in the statistical models (described in the next section). -->
+All inferential analyses will be performed in the statistical models (described in the next section).
+Survival rates and time to event will be reported, with their respective CI.
 
 ### Statistical modeling
+
+Hospital mortality will be evaluated with a Cox regression model.
+
+Two models are planned to be created to evaluate the impact of the troponin levels in mortality.
+A simpler univariate model including only the exposure will be created to serve as a base of comparison for the main model.
+The main model will adjust the HR between mortality and troponin levels by controlling for the type of surgery, surgery length, ICU length of stay and the risk scores APACHE and EURO.
 
 ### Missing data
 
