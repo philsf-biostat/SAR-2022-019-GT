@@ -1,5 +1,5 @@
 ---
-title: "Analytical Plan for [title]"
+title: "Analytical Plan for Study design for the association between peak troponin levels and post-surgery mortality in an Australian hospital"
 subtitle: 'DOCUMENT: SAP-2022-019-v01'
 author: '**From:** Felipe Figueiredo **To:** green_trader (fiverr.com)'
 date: "`r Sys.Date()`"
@@ -37,7 +37,7 @@ panderOptions('table.split.table', 160)
 
 \newpage
 
-**Analytical Plan for [title]**
+**Analytical Plan for Study design for the association between peak troponin levels and post-surgery mortality in an Australian hospital**
 
 **Document version**
 
@@ -79,15 +79,37 @@ source("scripts/input.R", encoding = 'UTF-8')
 
 ## Raw data
 
-The original data base had
+Upon study start the raw data will be collected in a raw table, that will be processed before analysis.
+The raw dataset to be collected will have
 `r Nvar_orig`
 variables collected on
 `r Nobs_orig`
 observations.
 
+This dataset will include the dates of entry and exit of the cohort, or the date of hospital admission and the date where the endpoint was reached (either an event, or hospital discharge).
+Table 1 shows the structure of the raw dataset.
+
+```{r analytical data}
+analytical_mockup %>%
+  pander(caption = "**Table 1** Raw dataset structure.")
+```
+
+Each row represents all information collected from each study participant, and each participant included will require a unique study ID.
+The outcome should be recorded as a binary variable: either the study participant reached the endpoint (death) or survived and was discharged.
+This information can be recorded in either text form, or an indicator (death = 1, discharge = 0).
+
+Surgery length should be recorded in minutes, and ICU length in days.
+
+Surgery type will be recorded as a categorical variable.
+It is recommended that the number of classes (types of surgery) be as small as possible, to avoid loss of precision in the analysis estimates, without the need to increase the sample size.
+Broader categories of surgeries should be preferred, whenever possible.
+
 ## Analytical dataset
 
-All variables in the analytical set were labeled according to the raw data provided and values were labeled according to the data dictionary for the preparation of production-quality results tables and figures.
+The analytical dataset will be created by cleaning the raw data and applying the study's inclusion and exclusion criteria.
+Time under observation will be calculated in days from the dates of entry and exit of the cohort.
+
+The total number of observations excluded due to incompleteness (missing data) and due to exclusion criteria will be reported in the analysis.
 
 <!-- After the cleaning process -->
 <!-- `r Nvar_final` -->
@@ -95,20 +117,17 @@ All variables in the analytical set were labeled according to the raw data provi
 <!-- with -->
 <!-- `r Nobs_final` -->
 <!-- observations. -->
-After the cleaning process
-`r Nvar_final`
-variables were included in the analysis.
-The total number of observations excluded due to incompleteness and exclusion criteria will be reported in the analysis.
-Table 1 shows the structure of the analytical dataset.
+<!-- After the cleaning process -->
+<!-- `r Nvar_final` -->
+<!-- variables were included in the analysis. -->
 
-```{r analytical data}
-analytical_mockup %>%
-  pander(caption = "**Table 1** Analytical dataset structure after variable selection and cleaning.")
-```
+All variables in the analytical set will be labeled according to the raw data provided and values will be labeled according to the data dictionary for the preparation of production-quality results tables and figures.
 
 # Study parameters
 
 ## Inclusion and exclusion criteria
+
+Inclusion and exclusion criteria will be defined in the study protocol.
 
 ## Exposures
 
@@ -124,6 +143,8 @@ Peak troponin levels, measured as a continuous scale.
 4. (Method of aggregation) Hazards ratio
 
 **Primary outcome**
+
+In hospital mortality rates after 30 days.
 
 ## Covariates
 
@@ -148,19 +169,20 @@ The distributions of participants' characteristics will be summarized in tables 
 
 ### Inferential analyses
 
-<!-- All comparisons between groups will be performed as univariate analyses. -->
-<!-- Continuous variables will be compared between groups with the -->
-<!-- independent t test with Welch correction. -->
-<!-- paired t test. -->
-<!-- Wilcoxon test. -->
-<!-- Differences in distribution of categorical variables will be assessed with the -->
-<!-- Fisher exact test. -->
-<!-- chi-square test. -->
-<!-- McNemar test. -->
-
-<!-- All inferential analyses will be performed in the statistical models (described in the next section). -->
+All inferential analyses will be performed in the statistical models (described in the next section).
+Survival rates and time to event will be reported, with their respective CI.
 
 ### Statistical modeling
+
+Hospital mortality will be evaluated with a Cox regression model.
+
+Two models are planned to be created to evaluate the impact of the troponin levels in mortality.
+A simpler univariate model including only the exposure will be created to serve as a base of comparison for the main model.
+The main model will adjust the HR between mortality and troponin levels by controlling for the type of surgery, surgery length, ICU length of stay and the risk scores APACHE and EURO.
+
+No variable selection is planned for this analysis.
+It is assumed that the variables included in the main model to control for confounding and bias were selected based on literature sources and clinical relevance.
+If the analysis suffers from lack of statistical power due to poor sample variability, then this analysis plan will be revised.
 
 ### Missing data
 
@@ -185,9 +207,11 @@ This analysis will be performed using statistical software `R` version `r getRve
 
 # Observations and limitations
 
+N/A
+
 # References
 
-- **SAR-2022-019-v01** -- [title]
+- **SAR-2022-019-v01** -- Study design for the association between peak troponin levels and post-surgery mortality in an Australian hospital
 <!-- - Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd Ed.). New York: Routledge. -->
 - Zarin DA, et al. The ClinicalTrials.gov results database -- update and key issues. N Engl J Med 2011;364:852-60 (<https://doi.org/10.1056/NEJMsa1012065>).
 - Gamble C, et al. Guidelines for the Content of Statistical Analysis Plans in Clinical Trials. JAMA. 2017;318(23):2337–2343 (<https://doi.org/10.1001/jama.2017.18556>).

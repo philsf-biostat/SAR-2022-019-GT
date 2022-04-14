@@ -1,4 +1,4 @@
-# [title]
+# Study design for the association between peak troponin levels and post-surgery mortality in an Australian hospital
 
 Study design for the association between peak troponin measurements and in hospital mortality adjusting for scores on EURO scores and APACHE.
 

@@ -13,6 +13,8 @@ library(labelled)
 set.seed(42)
 data.raw <- tibble(
   id = gl(2, 100),
+  date_admission = rnorm(200),
+  date_outcome = rnorm(200),
   outcome = gl(2, 100),
   troponin = rnorm(200),
   euroscore = rnorm(200),
