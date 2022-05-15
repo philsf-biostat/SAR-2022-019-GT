@@ -1,6 +1,6 @@
 ---
-title: '[title]'
-date: ""
+title: 'Study design for the association between peak troponin levels and post-surgery mortality in an Australian hospital'
+date: "2022-04-14"
 permalink: /portfolio/SAR-2022-019/
 redirect_from:
   - /portfolio/SAR-2022-019/
@@ -37,9 +37,9 @@ Statistical Analysis for green_trader (fiverr.com, 2022)
 
 - [PDF][sap]
 
-### Statistical Analysis Report (SAR)
+<!-- ### Statistical Analysis Report (SAR) -->
 
-- [PDF][sar]
+<!-- - [PDF][sar] -->
 
 <!-- ## Associated analyses -->
 
